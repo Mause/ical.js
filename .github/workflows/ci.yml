@@ -84,7 +84,7 @@ jobs:
       - uses: actions/download-artifact@v5
         with:
           name: timezones
-          dest: docs/
+          path: docs/
 
       - name: "npm ci"
         run: npm ci
